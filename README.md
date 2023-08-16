@@ -128,4 +128,4 @@ booktitle={arxiv},
 year={2019}
 ```
 ## Updates
-- # Add BiFPN Module
+- ### Add BiFPN Module
