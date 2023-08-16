@@ -120,6 +120,8 @@ class BiFPN(nn.Module):
         output2 = self.output2(input[1])
         output3 = self.output3(input[2])
 
+        o2 = output2.clone()
+
         up3 = F.interpolate(output3, size=[output2.size(2), output2.size(3)], mode="nearest")
         output2 = output2 + up3
         output2 = self.merge2(output2)
@@ -135,6 +137,8 @@ class BiFPN(nn.Module):
         down2   = F.interpolate(output2, size = [output3.size(2), output3.size(3)], mode = "nearest")
         output3 = output3 + down2 
         output3 = self.merge4(output3)
+
+        output2 = output2 + o2
 
 
         out = [output1, output2, output3]
