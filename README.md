@@ -115,7 +115,7 @@ python test_fddb.py --trained_model weight_file --network mobile0.25 or resnet50
 <p align="center"><img src="curve/1.jpg" width="640"\></p>
 
 ## TensorRT
--[TensorRT](https://github.com/wang-xinyu/tensorrtx/tree/master/retinaface)
+- [TensorRT](https://github.com/wang-xinyu/tensorrtx/tree/master/retinaface)
 
 ## References
 - [FaceBoxes](https://github.com/zisianw/FaceBoxes.PyTorch)
@@ -127,3 +127,5 @@ author={Deng, Jiankang and Guo, Jia and Yuxiang, Zhou and Jinke Yu and Irene Kot
 booktitle={arxiv},
 year={2019}
 ```
+##Updates
+- [Add BiFPN Module]
