@@ -129,5 +129,5 @@ year={2019}
 ```
 ## Updates
 - ### Add BiFPN Module
- <p align="center"><img src="[curve/aic-35-aic210222-g002.jpg" width="640"\></p>
+ <p align="center"><img src="curve/aic-35-aic210222-g002.jpg" width="640"\></p>
 
