@@ -127,5 +127,5 @@ author={Deng, Jiankang and Guo, Jia and Yuxiang, Zhou and Jinke Yu and Irene Kot
 booktitle={arxiv},
 year={2019}
 ```
-##Updates
-- [Add BiFPN Module]
+## Updates
+- # Add BiFPN Module
